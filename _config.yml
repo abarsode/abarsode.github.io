@@ -1,0 +1,17 @@
+# Site settings
+title: Alok Barsode
+header-img: img/home-bg.jpg
+email: barsodealok@gmail.com
+description: "This is my personal blog about everything I do, everything that interests me and everything I learn!"
+baseurl: ""
+url: "http://abarsode.github.io"
+twitter_username: alokbarsode
+github_username:  abarsode
+facebook_username:  Alok Barsode
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
