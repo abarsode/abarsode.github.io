@@ -7,7 +7,7 @@ baseurl: ""
 url: "http://abarsode.github.io"
 twitter_username: alokbarsode
 github_username:  abarsode
-facebook_username:  Alok Barsode
+facebook_username: alok.barsode
 
 # Build settings
 markdown: kramdown

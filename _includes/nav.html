@@ -9,20 +9,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}/">Home</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ site.baseurl }}/about/">About</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}
+                <li>
+                    <a href="{{site.baseurl}}/resume/Alok_Barsode.pdf">Résumé</a>
+                </li>
+                <li>
+                    <a href="mailto:barsodealok@gmail.com?Subject=Hello" target="_top">Contact</a>
+                </li>                                
+<!--                 {% for page in site.pages %}{% if page.title %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
-                {% endif %}{% endfor %}
+                {% endif %}{% endfor %} -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
